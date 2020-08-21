@@ -4,6 +4,7 @@ const routes = require("./routes");
 
 const server = express();
 server.use(express.json());
+//Allows us to host static files with static being the name of the folder 
 server.use(express.static('static'));
 
 
